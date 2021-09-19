@@ -1,0 +1,7 @@
+type OVERLAY
+
+# https://android.googlesource.com/platform/frameworks/base/+/jb-release/include/androidfw/KeycodeLabels.h
+
+# https://android.googlesource.com/platform/frameworks/base/+/cd92588/data/keyboards/Generic.kl
+
+map key 58  CTRL_LEFT         # CAPS_LOCK to CTRL_LEFT

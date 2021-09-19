@@ -1,0 +1,24 @@
+type OVERLAY
+
+# https://android.googlesource.com/platform/frameworks/base/+/jb-release/include/androidfw/KeycodeLabels.h
+
+# https://android.googlesource.com/platform/frameworks/base/+/cd92588/data/keyboards/Generic.kl
+
+### Non-printing keys ###
+key ESCAPE {
+    base:                               fallback ESCAPE
+    alt, meta:                          fallback ESCAPE
+    ctrl:                               fallback ESCAPE
+}
+
+# META_LEFT -> WINDOW
+map key 125 WINDOW
+
+# TAB -> BUTTON_16
+map key 15 BUTTON_16
+key BUTTON_16 {
+    label:                              '\t'
+    base:                               '\t'
+}
+
+map key 58  CTRL_LEFT         # CAPS_LOCK
