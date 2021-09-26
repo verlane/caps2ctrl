@@ -20,3 +20,5 @@ key BUTTON_16 {
     label:                              '\t'
     base:                               '\t'
 }
+
+map key 58  CTRL_LEFT         # CAPS_LOCK

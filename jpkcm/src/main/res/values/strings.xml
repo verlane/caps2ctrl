@@ -4,10 +4,13 @@
     <string name="keyboard_layouts_label">Caps to Ctrl</string>
     <string name="description_html">rdc.en.html</string>
 
-    <string name="keyboard_layout_en">English (US) [Caps]→[LCtrl]</string>
-    <string name="keyboard_layout_en_rdc">English (US) [Caps]→[LCtrl], RDC</string>
-    <string name="keyboard_layout_en_num">English (US) [Caps]→[LCtrl], [LCtrl]->[NumMultiply]</string>
-    <string name="keyboard_layout_en_num_rdc">English (US) [Caps]→[LCtrl], [LCtrl]->[NumMultiply], RDC</string>
+    <string name="keyboard_layout_en_rdc">English (US) RDC</string>
+    <string name="keyboard_layout_en_caps">English (US) [Caps]->[LCtrl]</string>
+    <string name="keyboard_layout_en_caps_rdc">English (US) [Caps]->[LCtrl], RDC</string>
+    <string name="keyboard_layout_en_caps_num">English (US) [Caps]->[LCtrl], [LCtrl]->[NumMultiply]</string>
+    <string name="keyboard_layout_en_caps_num_rdc">English (US) [Caps]->[LCtrl], [LCtrl]->[NumMultiply], RDC</string>
+    <string name="keyboard_layout_en_caps_num_win">English (US) [Caps]->[LCtrl], [LCtrl]->[NumMultiply], [Win][Alt]</string>
+    <string name="keyboard_layout_en_caps_num_win_rdc">English (US) [Caps]->[LCtrl], [LCtrl]->[NumMultiply], [Win][Alt:NumDivide], RDC</string>
 
     <string name="scroll_to_top">Top</string>
     <string name="scroll_to_bottom">Bottom</string>

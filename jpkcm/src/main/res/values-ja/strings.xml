@@ -4,10 +4,13 @@
     <string name="keyboard_layouts_label">KCMリマップ (英語配列, RDC)</string>
     <string name="description_html">rdc.ja.html</string>
 
-    <string name="keyboard_layout_en">英: [Caps]→[LCtrl]</string>
-    <string name="keyboard_layout_en_rdc">英: [Caps]→[LCtrl], RDC</string>
-    <string name="keyboard_layout_en_num">英: [Caps]→[LCtrl], [LCtrl]->[NumMultiply]</string>
-    <string name="keyboard_layout_en_num_rdc">英: [Caps]→[LCtrl], [LCtrl]->[NumMultiply], RDC</string>
+    <string name="keyboard_layout_en_rdc">英: RDC</string>
+    <string name="keyboard_layout_en_caps">英: [Caps]->[LCtrl]</string>
+    <string name="keyboard_layout_en_caps_rdc">英: [Caps]->[LCtrl], RDC</string>
+    <string name="keyboard_layout_en_caps_num">英: [Caps]->[LCtrl], [LCtrl]->[NumMultiply]</string>
+    <string name="keyboard_layout_en_caps_num_rdc">英: [Caps]→[LCtrl], [LCtrl]->[NumMultiply], RDC</string>
+    <string name="keyboard_layout_en_caps_num_win">英: [Caps]->[LCtrl], [LCtrl]->[NumMultiply], [Win][Alt]</string>
+    <string name="keyboard_layout_en_caps_num_win_rdc">英: [Caps]→[LCtrl], [LCtrl]->[NumMultiply], [Win][Alt:NumDivide], RDC</string>
 
     <string name="scroll_to_top">先頭</string>
     <string name="scroll_to_bottom">末尾</string>

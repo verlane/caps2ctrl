@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
-    <keyboard-layout android:name="keyboard_layout_en"
-            android:label="@string/keyboard_layout_en"
-            android:keyboardLayout="@raw/en" />
     <keyboard-layout android:name="keyboard_layout_en_rdc"
         android:label="@string/keyboard_layout_en_rdc"
-        android:keyboardLayout="@raw/en_rdc" />
-    <keyboard-layout android:name="keyboard_layout_en_num"
-        android:label="@string/keyboard_layout_en_num"
-        android:keyboardLayout="@raw/en_num" />
-    <keyboard-layout android:name="@string/keyboard_layout_en_num_rdc"
-        android:label="@string/keyboard_layout_en_num_rdc"
-        android:keyboardLayout="@raw/en_num_rdc" />
+        android:keyboardLayout="@raw/en_caps" />
+    <keyboard-layout android:name="keyboard_layout_en_caps"
+            android:label="@string/keyboard_layout_en_caps"
+            android:keyboardLayout="@raw/en_caps" />
+    <keyboard-layout android:name="keyboard_layout_en_caps_rdc"
+        android:label="@string/keyboard_layout_en_caps_rdc"
+        android:keyboardLayout="@raw/en_caps_rdc" />
+    <keyboard-layout android:name="keyboard_layout_en_caps_num"
+        android:label="@string/keyboard_layout_en_caps_num"
+        android:keyboardLayout="@raw/en_caps_num" />
+    <keyboard-layout android:name="@string/keyboard_layout_en_caps_num_rdc"
+        android:label="@string/keyboard_layout_en_caps_num_rdc"
+        android:keyboardLayout="@raw/en_caps_num_rdc" />
+    <keyboard-layout android:name="keyboard_layout_en_caps_num_win"
+        android:label="@string/keyboard_layout_en_caps_num_win"
+        android:keyboardLayout="@raw/en_caps_num_win" />
+    <keyboard-layout android:name="@string/keyboard_layout_en_caps_num_win_rdc"
+        android:label="@string/keyboard_layout_en_caps_num_win_rdc"
+        android:keyboardLayout="@raw/en_caps_num_win_rdc" />
 </keyboard-layouts>

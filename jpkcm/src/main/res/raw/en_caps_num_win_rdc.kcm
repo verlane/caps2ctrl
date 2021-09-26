@@ -1,0 +1,30 @@
+type OVERLAY
+
+# https://android.googlesource.com/platform/frameworks/base/+/master/data/keyboards/Generic.kcm
+# https://android.googlesource.com/platform/frameworks/base/+/master/data/keyboards/Generic.kl
+
+### Non-printing keys ###
+key ESCAPE {
+    base:                               fallback ESCAPE
+    alt, meta:                          fallback ESCAPE
+    ctrl:                               fallback ESCAPE
+}
+
+# ALT_LEFT -> WINDOW
+# map key 56 WINDOW # this is not working
+
+# ALT_LEFT -> NUMPAD_DIVIDE
+map key 56 NUMPAD_DIVIDE
+
+# TAB -> BUTTON_16
+map key 15 BUTTON_16
+key BUTTON_16 {
+    label:                              '\t'
+    base:                               '\t'
+}
+
+map key 58  CTRL_LEFT         # CAPS_LOCK
+map key 29  NUMPAD_MULTIPLY   # CTRL_LEFT
+map key 100 META_RIGHT        # ALT_RIGHT
+map key 125 ALT_LEFT          # META_LEFT
+map key 126 ALT_RIGHT         # META_RIGHT
